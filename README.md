@@ -5,12 +5,13 @@ Program BStation yang kami buat ini merupakan sebuah program yang pastinya sanga
 ## Struktur Program
 Pada program ini komponen awal pada struktur programnya adalah menu login yang diberfungsi untuk langkah awal sebelum masuk ke dalam inti program. Setelah itu, salah satu komponen utama dalam program ini adalah menu admin dan menu user pada komponen inilah operasi-operasi akan dipilih untuk dijalankan. Lalu komponen utama selanjutnya adalah penggunaan struktur data Linked List yang digunakan untuk menyimpan data video dan audio dari program. Ada juga komponen pembantu yang berfungsi membantu jalannya beberapa operasi yang ada di program seperti penggunaan algoritma Jump Search dan Shell Sort.
 ## Fitur dan fungsionalitas
-### Menu Login
-Sebelum menggunakan program, tersedia menu login yaitu:
-1. Login user: Digunakan oleh user yang sudah registrasi terlebih dahulu (memiliki username dan password yang tersimpan di database) 
-2. Login admin: Digunakan oleh admin (memiliki username dan password yang tersimpan di database)
-3. Registrasi: Apabila belum memiliki username dan password, dapat melakukan registrasi terlebih dahulu.
-4. Keluar: Keluar dari program.
+### Tampilan Awal
+Pada tampilan awal program, tersedia 5 pilihan yang disediakan yaitu: 
+1. Registrasi: Apabila belum memiliki username dan password, dapat melakukan registrasi terlebih dahulu.
+2. Login User: Digunakan oleh user yang sudah registrasi terlebih dahulu (memiliki username dan password yang tersimpan di database). 
+3. Login Admin: Digunakan oleh admin (memiliki username dan password yang tersimpan di database).
+4. Baca Ketentuan Aplikasi: Menampilkan ketentuan/peraturan yang ada pada aplikasi yang kami buat.
+5. Exit: Keluar dari program.
 ### Menu User
 Pada menu user memiliki 4 fitur yang tersedia dan dapat digunakan yaitu:
 1. Menambah anime baru ke playlist: User dapat menambahkan anime baru yang di sukai ke dalam playlistnya.
@@ -25,11 +26,11 @@ Pada menu admin memiliki 5 fitur yang dapat digunakan yaitu:
 3. Masuk ke menu user : admin dapat masuk ke menu user agar dapat mengecek apabila telah menambahkan anime baru , sudah tertambah atau belum.
 4. Melihat anime dan episode yang tersedia: Admin dapat mengecek anime dan episode apa saja yang tersedia dalam daftar, sehingga dapat memudahkan ketika nantinya admin akan mengupdate anime baru dan episode baru ke dalam playlist. 
 5. Keluar: Jika admin sudah menyelesaikan semua pekerjaannya dan ingin menyudahi menggunakan program, admin dapat memilih keluar, untuk keluar dari program.
-### Cara penggunaan 
+## Cara penggunaan 
 Ketika memulai program, maka akan menampilkan menu login. Terdapat 2 login yang tersedia yaitu:
 1. Login admin
 2. Login user 
-Untuk dapat login, pastikan telah memiliki username dan password yang tersimpan di database (telah melakukan registrasi) namun apabila belum memiliki  username dan password dapat memilih opsi 3 yaitu “registrasi” karena jika belum melakukan registrasi, maka program tidak dapat dijalankan. Ketika melakukan registrasi, maka akan diminta untuk membuat username dan password baru, masukkan username dan password yang dapat mudah diingat. Setelah selesai melakukan registrasi, pilihlah opsi login kemudian masukkan username dan password yang telah dibuat tadi, pastikan username dan password yang dimasukkan sudah sesuai. Jika username dan password benar, maka otomatis program dapat dijalankan dan jika salah maka tidak bisa masuk ke program.
+Untuk dapat login, pastikan telah memiliki username dan password yang tersimpan di database (telah melakukan registrasi) namun apabila belum memiliki  username dan password dapat memilih opsi 1 yaitu “Registrasi” karena jika belum melakukan registrasi, maka tidak bisa login dan program tidak dapat dijalankan. Ketika melakukan registrasi, maka akan diminta untuk membuat username dan password baru, masukkan username dan password yang dapat mudah diingat. Setelah selesai melakukan registrasi, maka akan langsung mengarah ke menu login user, nantinya akan diminta untuk memasukkan username dan password yang telah dibuat tadi, pastikan username dan password yang dimasukkan sudah sesuai. Jika username dan password benar(berhasil login), maka otomatis program dapat dijalankan dan masuk ke menu user. Jika salah maka tidak bisa masuk ke program, akan diminta lagi untuk memasukkan username dan password yang sesuai.
 
 Jika login sebagai admin, maka akan menampilkan 5 pilihan menu yang hanya dapat digunakan oleh admin (hak admin). Yaitu:
 1.	Menambah anime baru: Apabila admin memilih opsi 1, Admin dapat menambahkan anime baru yang ke dalam daftar anime yang tersedia dengan cara memasukkan judul anime baru yang akan ditambahkan, serta 5 file episode yang telah di siapkan terlebih dahulu.
