@@ -33,7 +33,7 @@ Ketika memulai program, maka akan menampilkan tampilan awal program yaitu:
 3. Login Admin
 4. Baca Ketentuan Aplikasi
 5. Exit
--
+
 Bagi user, untuk dapat login pastikan telah memiliki username dan password yang tersimpan di database (telah melakukan registrasi) namun apabila belum memiliki  username dan password dapat memilih opsi 1 yaitu “Registrasi” karena jika belum melakukan registrasi, maka program tidak dapat dijalankan. Ketika melakukan registrasi, maka akan diminta untuk membuat username dan password baru, masukkan username dan password yang dapat mudah diingat. Setelah selesai melakukan registrasi, akan langsung mengarah ke login user. User akan diminta untuk memasukkan username dan password yang telah dibuat tadi, pastikan username dan password yang dimasukkan sudah sesuai. Jika username dan password benar (login berhasil), maka otomatis program dapat dijalankan dan jika salah (login gagal) maka tidak bisa melanjutkan program dan akan ada pilihan "Apakah Anda Ingin Mengulang? Y/N jika anda mengetik Y maka akan diminta kembali untuk memasukkan username dan password yang sesuai dan jika mengetik N maka program akan selesai.
 
 Sedangkan bagi admin, username dan password yang dimasukkan untuk login telah ditentukan yaitu:
