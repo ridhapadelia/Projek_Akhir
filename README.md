@@ -10,14 +10,14 @@ Pada tampilan awal program terdapat 5 pilihan yaitu:
 1. Registrasi: Apabila belum memiliki username dan password, dapat melakukan registrasi terlebih dahulu.
 2. Login user: Digunakan oleh user yang sudah registrasi terlebih dahulu (memiliki username dan password yang tersimpan di database). 
 3. Login admin: Digunakan oleh admin (memiliki username dan password yang tersimpan di database).
-4. Baca Ketentuan Aplikasi: menampilkan ketentuan/peraturan yang ada pada aplikasi yang kami buat.
+4. Baca Ketentuan Aplikasi: menampilkan ketentuan/peraturan yang ada pada program yang kami buat.
 5. Exit: Keluar dari program.
 ### Menu User
 Pada menu user memiliki 4 fitur yang tersedia dan dapat digunakan yaitu:
 1. Tambahkan Anime baru ke Playlist: User dapat menambahkan anime baru yang di sukai ke dalam playlistnya.
 2. Hapus Anime yang ada di Playlist: User dapat menghapus anime yang ada pada playlistnya. 
 3. Putar Playlist: User dapat menonton/memutar video dari anime yang telah dipilih untuk diputar dan program akan menampilkan video anime tersebut.
-4. Keluar: Jika user ingin menyudahi menggunakan program, user dapat memilih keluar, untuk keluar dari program.
+4. Keluar: Jika user ingin mengakhiri menggunakan program, user dapat memilih keluar, untuk keluar dari program.
 ### Menu Admin
 Pada menu admin memiliki 5 fitur yang dapat digunakan yaitu:
 1. Tambahkan Anime baru: Jika ada anime baru yang dirilis, maka admin dapat menambahkan anime tersebut ke dalam daftar anime yang tersedia pada program. 
@@ -33,6 +33,7 @@ Ketika memulai program, maka akan menampilkan tampilan awal program yaitu:
 3. Login Admin
 4. Baca Ketentuan Aplikasi
 5. Exit
+-
 Bagi user, untuk dapat login pastikan telah memiliki username dan password yang tersimpan di database (telah melakukan registrasi) namun apabila belum memiliki  username dan password dapat memilih opsi 1 yaitu “Registrasi” karena jika belum melakukan registrasi, maka program tidak dapat dijalankan. Ketika melakukan registrasi, maka akan diminta untuk membuat username dan password baru, masukkan username dan password yang dapat mudah diingat. Setelah selesai melakukan registrasi, akan langsung mengarah ke login user. User akan diminta untuk memasukkan username dan password yang telah dibuat tadi, pastikan username dan password yang dimasukkan sudah sesuai. Jika username dan password benar (login berhasil), maka otomatis program dapat dijalankan dan jika salah (login gagal) maka tidak bisa melanjutkan program dan akan ada pilihan "Apakah Anda Ingin Mengulang? Y/N jika anda mengetik Y maka akan diminta kembali untuk memasukkan username dan password yang sesuai dan jika mengetik N maka program akan selesai.
 
 Sedangkan bagi admin, username dan password yang dimasukkan untuk login telah ditentukan yaitu:
