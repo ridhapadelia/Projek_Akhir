@@ -59,4 +59,4 @@ Jika login sebagai admin, maka akan menampilkan 6 pilihan yang hanya dapat digun
 5. Masuk ke menu USER : Apabila admin memilih opsi 5 maka admin akan langsung di arahkan ke menu user.
 6. Keluar: Opsi 6 ini digunakan jika admin ingin mengakhiri menggunakan program.
 
-Jika memilih opsi 4 pada bagian tampilan awal yaitu baca ketentuan aplikasi akan menampilkan beberapa ketentuan/peraturan yang kami buat pada program ini dan jika memilih opsi 5 yaitu exit dapat digunakan untuk keluar dari program/menyudahi menggunakan program.
+Jika memilih opsi 4 pada bagian tampilan awal yaitu baca ketentuan aplikasi akan menampilkan beberapa ketentuan/peraturan yang kami buat pada program ini dan jika memilih opsi 5 yaitu exit dapat digunakan untuk keluar dari program/menyudahi menggunakan program. 
