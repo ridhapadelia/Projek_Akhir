@@ -3,7 +3,7 @@
 ## Deskripsi program 
 Program BStation yang kami buat ini merupakan sebuah program yang pastinya sangat digemari oleh para pecinta anime, karena program ini menyediakan berbagai tontonan anime berkualitas dan terbaik, program ini juga sangat mudah digunakan. Pada program ini juga kami rancang agar bisa update anime terbaru yang pastinya dinantikan oleh para penggemar dan akan ditambahkan ke dalam daftar anime yang tersedia.
 ## Struktur Program
-Pada program ini komponen awal pada struktur programnya adalah menu login yang diberfungsi untuk langkah awal sebelum masuk ke dalam inti program. Setelah itu, salah satu komponen utama dalam program ini adalah menu admin dan menu user pada komponen inilah operasi-operasi akan dipilih untuk dijalankan. Lalu komponen utama selanjutnya adalah penggunaan struktur data Linked List yang digunakan untuk menyimpan data video dan audio dari program. Ada juga komponen pembantu yang berfungsi membantu jalannya beberapa operasi yang ada di program seperti penggunaan algoritma Jump Search dan Shell Sort.
+Pada program ini komponen awal pada struktur programnya adalah menu login yang diberfungsi untuk langkah awal sebelum masuk ke dalam inti program. Setelah itu, salah satu komponen utama dalam program ini adalah menu admin dan menu user pada komponen inilah operasi-operasi akan dipilih untuk dijalankan. Lalu komponen utama selanjutnya adalah penggunaan struktur data Linked List yang digunakan untuk menyimpan data video dan audio dari program. Ada juga komponen pembantu yang berfungsi membantu jalannya beberapa operasi yang ada di program seperti penggunaan algoritma Jump Search, Fibonacci dan Shell Sort.
 ## Fitur dan fungsionalitas
 ### Tampilan Awal Program
 Pada tampilan awal program terdapat 5 pilihan yaitu:
