@@ -1,10 +1,6 @@
-# from View.Kembali import kembali
-# from Model.Model_User import user_login
-# from View.View_User import tampilan12
-# from Model.Model_User import tampilan12
-# from Control.Control_User import tampilan1
 from Model.File_tambah import mutar
 from prettytable import PrettyTable
+from Control.Penghubung import menuuser
 import os
 
 os.system('cls')
@@ -208,11 +204,7 @@ def tampilanAdmin2():
                 os.system('cls')
                 tampilanadmin1()
         elif pilih == "4":
-            # kembali()
-            # tampilan1()
-            # tampilanUser()
-            # tampilan12()
-            # user_login()
+            menuuser()
             print()
         elif pilih == "5":
             exit()
