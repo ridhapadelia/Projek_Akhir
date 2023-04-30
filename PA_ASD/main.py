@@ -45,6 +45,7 @@ while True :
 8. tersedia tombol next episode untuk melangkahi episode nya, dengan cara menekan tombol (x)
 9. tersedia juga tombol stop untuk keluar dari pemutaran, dengan cara menekan tombol (z)
 10. Dan jika user telah selesai menonton anime yang tersedia di playlist, maka user dapat menghapusnya. 
+11. DImohon untuk memperhatikan pengetikan, dikarenakan ini aplikasi sederhana jika mengetikan diluar dari ketentuan maka program akan terhenti!
             """)
 
         elif tampilan == "5" :
