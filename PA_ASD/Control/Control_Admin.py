@@ -134,7 +134,6 @@ class Anime:
                 return idx
         if fib_nums[fib_idx - 2] and self.get_node_at_index(offset + 1).anime == key:
             return offset + 1
-        print("kok")
         return -1
     
 
