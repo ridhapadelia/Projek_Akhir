@@ -1,4 +1,4 @@
-# from View.View_User import tampilan12
+from Control.Penghubung import menuuser
 from prettytable import PrettyTable
 import pygame
 import cv2
@@ -138,14 +138,13 @@ class Pemutaran:
                     self.handle_events() 
                     if cv2.waitKey(25) & 0xFF == ord('x'):
                         ff += 1
-                        # tampilanUser()
                         break  
                     elif cv2.waitKey(25) & 0xFF == ord('z'):
                         print("Keluar dari tontonan !")
                         print("")
                         hg = input("Kembali Ke Menu User?: ")
                         if hg == "y":
-                            # tampilan12()
+                            menuuser()
                             print("")
                         else:
                             exit()
@@ -157,28 +156,6 @@ class Pemutaran:
             pygame.mixer.music.stop() 
             cv2.destroyAllWindows()
             io -= 1
-
-    def tampilan_pemutar(self):
-        if not self.head:
-            print("Tidak ada Anime yang tersedia")
-        else:
-            current = self.head 
-            table = PrettyTable(["no","suara","video"])
-            a = 1
-            while current is not None:
-                table.add_row([a , current.audio_file,current.video_file])
-                a += 1
-                current = current.next
-            print(table)
-    
-    def tambah_animep(self):
-        anime   = input("masukan nama file video yang ingin di tambah: ")
-        suara =input("masukan nama file suara yang ingin di tambah: ")
-        self.append(anime,suara)
-        self.shell_sort()
-        self.tampilan_pemutar
-        print("berhasil di tambahkan ")
-
 
     def getindex(self, index):
         current_node =self.head
@@ -248,8 +225,3 @@ class Pemutaran:
 
 
 mutar = Pemutaran()
-# mutar1 = Putar()
-
-
-
-
